@@ -1,14 +1,12 @@
 # Data Analysis on a fictional video game using Pandas
 
-## Background
+## Objective
 
 ![Fantasy](Images/Fantasy.png)
 
-Congratulations! After a lot of hard work in the data munging mines, you've landed a job as Lead Analyst for an independent gaming company. You've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
+As Lead Analyst for a fictional gaming company, the assignment is to analyze data for their most recent fantasy game "Heroes of Pymoli."
 
-Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
-
-Your final report should include each of the following:
+Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. This report breaks down the game's purchasing data into meaningful insights with such data values as:
 
 ### Player Count
 
@@ -33,7 +31,6 @@ Your final report should include each of the following:
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
-  * Average Purchase Total per Person by Gender
 
 ### Age Demographics
 
@@ -41,7 +38,6 @@ Your final report should include each of the following:
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
-  * Average Purchase Total per Person by Age Group
 
 ### Top Spenders
 
@@ -68,13 +64,6 @@ Your final report should include each of the following:
   * Purchase Count
   * Item Price
   * Total Purchase Value
-
-As final considerations:
-
-* You must use the Pandas Library and the Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of three observable trends based on the data.
-* See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
 
 ## Takeaways
 
