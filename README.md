@@ -1,8 +1,8 @@
 # Data Analysis on a fictional video game using Pandas
 
-## Objective
-
 ![Fantasy](Images/Fantasy.png)
+
+## Objective
 
 As Lead Analyst for a fictional gaming company, the assignment is to analyze data for their most recent fantasy game "Heroes of Pymoli."
 
