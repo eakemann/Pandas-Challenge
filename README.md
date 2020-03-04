@@ -1,24 +1,6 @@
-# Pandas Homework - Pandas, Pandas, Pandas
+# Data Analysis on a fictional video game using Pandas
 
 ## Background
-
-The data dive continues!
-
-Now, it's time to take what you've learned about Python Pandas and apply it to new situations. For this assignment, you'll need to complete **one of two** (not both)  Data Challenges. Once again, which challenge you take on is your choice. Just be sure to give it your all -- as the skills you hone will become powerful tools in your data analytics tool belt.
-
-### Before You Begin
-
-1. Create a new repository for this project called `pandas-challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, create a directory for the Pandas Challenge you choose. Use folder names corresponding to the challenges: **HeroesOfPymoli** or  **PyCitySchools**.
-
-4. Add your Jupyter notebook to this folder. This will be the main script to run for analysis.
-
-5. Push the above changes to GitHub or GitLab.
-
-## Option 1: Heroes of Pymoli
 
 ![Fantasy](Images/Fantasy.png)
 
@@ -94,103 +76,20 @@ As final considerations:
 * You must include a written description of three observable trends based on the data.
 * See [Example Solution](HeroesOfPymoli/HeroesOfPymoli_starter.ipynb) for a reference on expected format.
 
-## Option 2: Academy of Py
+## Takeaways
 
-![Education](Images/education.png)
+Based on the extracted Heroes of PyMoli data, we are able to observe several finds:
 
-Well done! Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. In your latest role, you've become the Chief Data Scientist for your city's school district. In this capacity, you'll be helping the  school board and mayor make strategic decisions regarding future school budgets and priorities.
+1)	Out of 780 item purchases with an average price of $3.05, 25% of those purchases were made by players who purchased more than one item.
+2)	84% of the games 576 unique players are male, while 14% (or 81 players) are female, and 2% (or 11 players either have another gender identity or chose not to disclose their gender identity.
+3)	Even though there were less females playing, their purchasing value was higher in terms of the average price paid for items, where, 113 purchases made by females accounted for an average purchase price of $3.20 per item, whereas the 652 male purchases suggest possibly buying less expensive items (though more volume), only spending around $3.02 per item. The Other/Non-Disclosed group spent the most of all per item spending an average of $3.35 per item purchased.  The total volume per gender however was $361.94 for females, $1,967.64 for males, and $50.19 for Other/Non Disclosed genders for a total purchase volume of $2,379.77.
+4)	In terms of gender demographics, by far the most players are between 20-24 years old with 258, or 45% of players making up this range.  The next largest age group are 15-19 year olds with 18.6% of players in this range.  The youngest players (<10 or 3% of players), and players >40 (~2%) make up the smallest numbers in the group.
+5)	The highest spenders per item however are also among the oldest players (35-39, or 5.4% of players) where they spend $3.60 per item.  After that however, the kids <10 spend the most with an average of $3.35 per item spent (I hope their parents are aware they’re spending their money on gaming items!).
+6)	The top spender “Lisosia93” made 5 purchases for an average of $3.79/ea spending $18.96 total. The next top spender “Idastidru52” made 4 purchases spending $3.86 per item for a total of $15.45.
+7)	“Oathbreaker, Last Hope of the Breaking Storm” was the most popular item, as well as the most profitable item purchased with 12 purchases at $4.23/ea for a revenue of $50.76 for this item alone.  Or, making up 2.13% of the total revenue.
+8)	The next most profitable item was the “Nirvana” item with 9 purchases at $4.90/ea or, making up $44.10 in value, or 1.8% of profits.
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your responsibility is to aggregate the data to and showcase obvious trends in school performance.
 
-Your final report should include each of the following:
-
-### District Summary
-
-* Create a high level snapshot (in table form) of the district's key metrics, including:
-  * Total Schools
-  * Total Students
-  * Total Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-### School Summary
-
-* Create an overview table that summarizes key metrics about each school, including:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-### Top Performing Schools (By Passing Rate)
-
-* Create a table that highlights the top 5 performing schools based on Overall Passing Rate. Include:
-  * School Name
-  * School Type
-  * Total Students
-  * Total School Budget
-  * Per Student Budget
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-### Bottom Performing Schools (By Passing Rate)
-
-* Create a table that highlights the bottom 5 performing schools based on Overall Passing Rate. Include all of the same metrics as above.
-
-### Math Scores by Grade\*\*
-
-* Create a table that lists the average Math Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-### Reading Scores by Grade
-
-* Create a table that lists the average Reading Score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-### Scores by School Spending
-
-* Create a table that breaks down school performances based on average Spending Ranges (Per Student). Use 4 reasonable bins to group school spending. Include in the table each of the following:
-  * Average Math Score
-  * Average Reading Score
-  * % Passing Math
-  * % Passing Reading
-  * Overall Passing Rate (Average of the above two)
-
-### Scores by School Size
-
-* Repeat the above breakdown, but this time group schools based on a reasonable approximation of school size (Small, Medium, Large).
-
-### Scores by School Type
-
-* Repeat the above breakdown, but this time group schools based on school type (Charter vs. District).
-
-As final considerations:
-
-* Use the pandas library and Jupyter Notebook.
-* You must submit a link to your Jupyter Notebook with the viewable Data Frames.
-* You must include a written description of at least two observable trends based on the data.
-* See [Example Solution](PyCitySchools/PyCitySchools_starter.ipynb) for a reference on the expected format.
-
-## Hints and Considerations
-
-* These are challenging activities for a number of reasons. For one, these activities will require you to analyze thousands of records. Hacking through the data to look for obvious trends in Excel is just not a feasible option. The size of the data may seem daunting, but pandas will allow you to efficiently parse through it.
-
-* Second, these activities will also challenge you by requiring you to learn on your feet. Don't fool yourself into thinking: "I need to study pandas more closely before diving in." Get the basic gist of the library and then _immediately_ get to work. When facing a daunting task, it's easy to think: "I'm just not ready to tackle it yet." But that's the surest way to never succeed. Learning to program requires one to constantly tinker, experiment, and learn on the fly. You are doing exactly the _right_ thing, if you find yourself constantly practicing Google-Fu and diving into documentation. There is just no way (or reason) to try and memorize it all. Online references are available for you to use when you need them. So use them!
-
-* Take each of these tasks one at a time. Begin your work, answering the basic questions: "How do I import the data?" "How do I convert the data into a DataFrame?" "How do I build the first table?" Don't get intimidated by the number of asks. Many of them are repetitive in nature with just a few tweaks. Be persistent and creative!
-
-* Expect these exercises to take time! Don't get discouraged if you find yourself spending  hours initially with little progress. Force yourself to deal with the discomfort of not knowing and forge ahead. Consider these hours an investment in your future!
-
-* As always, feel encouraged to work in groups and get help from your TAs and Instructor. Just remember, true success comes from mastery and _not_ a completed homework assignment. So challenge yourself to truly succeed!
 
 ### Copyright
 
