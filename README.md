@@ -36,14 +36,14 @@ This report breaks down the game's purchasing data into meaningful insights with
 
 ### Age Demographics
 
-* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+* The below each broken into bins of 4 years
   * Purchase Count
   * Average Purchase Price
   * Total Purchase Value
 
 ### Top Spenders
 
-* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+* Identify the the top 5 spenders in the game by total purchase value:
   * SN
   * Purchase Count
   * Average Purchase Price
@@ -51,7 +51,7 @@ This report breaks down the game's purchasing data into meaningful insights with
 
 ### Most Popular Items
 
-* Identify the 5 most popular items by purchase count, then list (in a table):
+* Identify the 5 most popular items by purchase count:
   * Item ID
   * Item Name
   * Purchase Count
@@ -60,7 +60,7 @@ This report breaks down the game's purchasing data into meaningful insights with
 
 ### Most Profitable Items
 
-* Identify the 5 most profitable items by total purchase value, then list (in a table):
+* Identify the 5 most profitable items by total purchase value:
   * Item ID
   * Item Name
   * Purchase Count
@@ -69,7 +69,7 @@ This report breaks down the game's purchasing data into meaningful insights with
 
 ## Takeaways
 
-Based on the extracted Heroes of PyMoli data, we are able to observe several finds:
+### Based on the extracted Heroes of PyMoli data, we are able to observe several finds:
 
 1)	Out of 780 item purchases with an average price of $3.05, 25% of those purchases were made by players who purchased more than one item.
 2)	84% of the games 576 unique players are male (484 males), while 14% (or 81 players) are female, and 2% (or 11 players) either have another gender identity or chose not to disclose their gender identity.
